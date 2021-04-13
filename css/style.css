@@ -1,0 +1,251 @@
+/*fuentes*/
+
+/******************************************************************/
+/*****************************general******************************/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+/*header and footer*/
+header{
+    background-color: black;
+    height: 90px;
+}
+footer{
+    height: 140px;
+    background-color: black;
+}
+.navegacion ul{
+    list-style: none;
+    font-size: 0;
+}
+.navegacion li{
+    margin-top: 1.5%;
+    display: inline-block;
+    width: 10%;
+    position: relative;
+    font-size: 20px;
+}
+.navegacion ul ul{
+    position: absolute;
+    display: none;
+    border-radius: solid 2px crimson;
+    align-content: center;
+}
+.navegacion ul ul li{  
+    display: block;
+    border-radius: solid 2px crimson;
+    align-content: center;
+}
+.navegacion ul li:hover ul{
+    background-color: rgb(68, 67, 67);
+    display: block;
+}
+footer img{
+    height: 140px;
+}
+.logo-footer{
+    height: 90px;
+    position: absolute;
+    left: 0;
+}
+/*Background*/
+body{
+    background: black;
+    background-image: url(../assets/images/interface/crypts.entrance.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+/******************************************************************/
+/***************************index_page*****************************/
+.index-heroes{
+    width: 60%;
+    margin-inline: auto;
+}
+.index-heroes h1{
+    background-image: url(../assets/images/interface/menu.element.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.index-heroes a{
+    text-align: end;
+    text-decoration: unset;
+    color: wheat;
+}
+.index-enemy img{
+    width: 60%;
+}
+.index-enemy a{
+    display: block;
+}
+.index-enemy img{
+    border-top: solid 5px rgb(156, 73, 73);
+    border-left: solid 5px rgb(156, 73, 73);
+    border-right: solid 5px rgb(156, 14, 42);
+    border-bottom: solid 5px rgb(156, 14, 42);
+}
+.index-container-info{
+    width: 90%;
+    border: solid 1px blue;
+    margin: auto;
+}
+.seccion-info img{
+    width: 60%;
+}
+.separador{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/*video*/
+.video-container {
+    width:70%;
+    margin:auto;
+}
+.contenedor-video{
+    width:100%;
+    padding-top:56.25%;
+    position:relative;
+}
+iframe{
+    position:absolute;
+    height:100%;
+    width:100%;
+    top:0px;
+    left:0px;
+}
+/*header*/
+header img{
+    height: 90px;
+    position: absolute;
+    left: 0;
+}
+/******************************************************************/
+/****************************game_page*****************************/
+.battle{
+    overflow: hidden;
+}
+.battle div{
+    margin-top: -5%;
+}
+.cruzado{
+    height: 800px;
+}
+.esqueleto{
+    height: 500px;
+}
+/*Sala de batalla*/
+.battle{
+    background-color: transparent ;
+    background-image: url(../assets/images/interface/crypts.room_altar.png);
+    background-size: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 1520px;
+    border: 1px solid crimson;
+    margin: auto;
+    align-items: center;
+}
+/*Background tabla de contenido*/
+#BattleStateAll{
+    display: grid;
+    grid-template-columns: auto auto;
+    pad: 0;
+    justify-content: center;
+    align-content: center;
+}
+#battleStateBannerLeft{
+    background-image: url(../assets/images/interface/panel/panelLeft.png);
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 760px;
+    border: 1px solid crimson; 
+}
+#battleStateBannerRight{
+    background-image: url(../assets/images/interface/panel/panelRight.png);
+    background-repeat: no-repeat;
+    height: 270px;
+    width: 760px;
+    border: 1px solid crimson;
+}
+/******************************************************************/
+/***************************heroes_page****************************/
+/*hero and enemy tables*/
+.tabla{
+    margin-inline: auto;
+    border: 1px solid crimson;
+    width: 800px;
+    background-color: black;
+    margin-top: 30px;
+}
+.tabla tr td{
+    border: 1px solid crimson;
+}
+.portrait-table{
+    width: 120px;
+}
+
+/******************************************************************/
+/****************************news_page*****************************/
+.news-content a{
+    width: 40%;
+}
+/******************************************************************/
+/***************************media_page*****************************/
+/*art-section*/
+.art-container div img{
+    border: 2px solid grey;
+}
+
+
+
+
+/******************************************************************/
+/****************************clase_n6******************************/
+/*header*/
+.navegacion ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*heros-page*/
+.tabla-hero-container{
+    margin-inline: auto;
+    width: 80%;
+    background-color: black;
+    margin-top: 30px;
+}
+.tabla-hero{
+    display: flex;
+    flex-direction: row;
+}
+
+.tabla-hero div{
+    border: 1px solid crimson;
+}
+.section-table1{
+   width: 15%;
+   display: flex;
+   flex-direction: column;
+}
+.section-table2{
+   width: 5%;
+}
+.section-table3{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.titulo-tabla{
+}
+.portrait-table{
+}
+.hp-table{
+}
